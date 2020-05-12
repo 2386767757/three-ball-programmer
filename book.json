@@ -1,0 +1,53 @@
+{
+    "title": "三个蛋的程序员",
+    "author": "shawn kuang",
+    "description": "这是一本小说，讲的是一名程序员传奇故事",
+    "language": "zh-hans",
+    "styles": {
+        "website": "styles/website.css"
+    },
+
+    "plugins": [
+        "theme-fexa","-sharing"
+    ],
+    "variables": {
+        "themeFexa": {
+            "nav": [{
+                "url": "http://...",
+                "target": "_blank",
+                "name": "简易教程"
+            }]
+        }
+    },
+    "pluginsConfig": {
+        "theme-fexa": {
+            "search-placeholder": "输入关键字搜索",
+            "logo": "./logo.png",
+            "favicon": "./favicon.ico"
+        },
+        "sharing": {
+            "douban": false,
+            "facebook": true,
+            "google": true,
+            "hatenaBookmark": false,
+            "instapaper": false,
+            "line": false,
+            "linkedin": false,
+            "messenger": false,
+            "pocket": false,
+            "qq": true,
+            "qzone": false,
+            "stumbleupon": false,
+            "twitter": true,
+            "viber": false,
+            "vk": false,
+            "weibo": true,
+            "whatsapp": false,
+            "all": [
+                "facebook", "google", "twitter",
+                "weibo", "instapaper", "linkedin",
+                "pocket", "stumbleupon"
+            ]
+        }
+    }
+}
